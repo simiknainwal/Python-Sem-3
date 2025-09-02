@@ -12,7 +12,7 @@ c={33,44,22,55,11}
 # print(a)
 # print(b)
 # print(c)
-#We can elements in different arrangement because the elements are stores in hash key form
+#We get elements in different arrangement because the elements are stores in hash key form
 #For repeated values hash keys is same so we don't get duplicate values.
 #We can't apply slicing
 s={11,22,33,44,55}
