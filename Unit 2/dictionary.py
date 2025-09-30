@@ -81,14 +81,15 @@ student.update({"sem":5})
 student={
     'name':'Dia',
     'sem':3,
-    'Course':'CSE'
+    'Course':'CSE',
+    'sample':234
 }
 
-student.pop("Course")
-student.popitem()
-del student['name']
-student.clear()
-# print(student)
+# student.pop("Course")
+student.popitem() #pops last key-value pair.
+# del student['name']
+# student.clear()
+print(student)
 
 student={
     'name':'Dia',
@@ -141,18 +142,18 @@ laptop={"name":'Omen',"processor":'i914HX',"OS":'Linux'}
         
         
 #Q4
-max=0
-min=100
-c=""
-scores={"Alice":88,"Bob":75,"Charlie":92,"David":60} 
-print(scores)
-for i in scores:
-    if(scores[i]>max):
-        max=scores[i]       
-    if(scores[i]<min):
-        c=i
-print("Maximum marks are ",max)
-scores.pop(c) 
-print(scores)
-scores["Eve"]=81
-print(scores)
+# max=0
+# min=100
+# c=""
+# scores={"Alice":88,"Bob":75,"Charlie":92,"David":60} 
+# print(scores)
+# for i in scores:
+#     if(scores[i]>max):
+#         max=scores[i]       
+#     if(scores[i]<min):
+#         c=i
+# print("Maximum marks are ",max)
+# scores.pop(c) 
+# print(scores)
+# scores["Eve"]=81
+# print(scores)
